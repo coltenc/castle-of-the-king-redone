@@ -26,11 +26,7 @@ do
     {
         ttreasure = random.Next(1, door);
     }
-    Console.WriteLine(king);
-    Console.WriteLine(streasure);
-    Console.WriteLine(ttreasure);
-    Console.WriteLine(treasure);
-
+    
     //picking the door the person wants.
     Console.WriteLine($"There are {door} amount of doors");
     Console.WriteLine($"one door will lead to the king, some may lead to treasure");
@@ -111,5 +107,6 @@ do
     again = Console.ReadLine() + "";
     Console.WriteLine();
     Console.WriteLine();
+
 
 } while (again == "yes");
